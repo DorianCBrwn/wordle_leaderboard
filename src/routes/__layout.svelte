@@ -1,5 +1,9 @@
 <script>
+	import Nav from '$lib/components/nav.svelte';
 	import '../app.css';
 </script>
 
-<slot />
+<Nav />
+<main class="container prose max-w-none">
+	<slot />
+</main>
